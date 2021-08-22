@@ -367,7 +367,7 @@ header {
 
 .title-sercices {
   width: 100%;
-  padding: 16px;
+  padding: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -417,7 +417,7 @@ header {
 }
 
 .box-services {
-  padding: 16px;
+  padding: 4px;
   display: grid;
   gap: 16px;
   grid-template-columns: repeat(2, 1fr);
@@ -1055,7 +1055,7 @@ main section.skill-set .skill-set__box .title-skill span {
   .navigation .menu {
     position: absolute;
     left: -150%;
-    top: 98px;
+    top: 110px;
     transition: all 0.5s ease-in-out;
     overflow: hidden;
     width: 100%;
@@ -1065,7 +1065,14 @@ main section.skill-set .skill-set__box .title-skill span {
     display: block;
     width: 100%;
     background-color: var(--colorBase);
+    padding: 0 !important;
   }
+
+  .navigation ul li a {
+    display: block;
+    padding: 16px;
+  }
+
   .logo {
     width: auto !important;
     border-radius: 20px;
