@@ -1295,3 +1295,12 @@ main section.skill-set .skill-set__box .title-skill span {
 }
 
 /* -----------------------MAIN SECTION-CONTACTO SET END---------------------------- */
+
+@media only screen and (min-width: 820px) and (max-width: 900px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-skill__cards {
+    grid-template-columns: repeat(7, 1fr);
+  }
+}
